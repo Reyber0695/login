@@ -1,0 +1,106 @@
+/* estilos generales */
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+}
+
+header .div-enc {
+  height: 100%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+}
+
+header .div-enc h1 {
+  color: #fff;
+}
+
+.section-logo {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-logo {
+  border: 2px cadetblue solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-logo img {
+  width: 70%;
+  height: 60%;
+}
+
+.section-form {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-form form {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-form form .inputs {
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.section-form form .inputs span {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  color: cadetblue;
+}
+
+.section-form form .inputs input{
+  height: 100%;
+  width: 100%;
+  border-radius: 2%;
+  padding: 0px 30px;
+  border: 0;
+  border:2px cadetblue solid;
+  outline: none;
+  color: black;
+}
+
+.section-form form .inputs input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.section-form form .submit {
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-form form .submit input {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5%;
+}
